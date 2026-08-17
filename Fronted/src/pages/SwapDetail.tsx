@@ -28,7 +28,7 @@ const SwapDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   // Dummy user
-  const user = { id: '1', firstName: 'Bilal', lastName: 'Mustafa' };
+  const user = { id: '1', firstName: 'Faizan', lastName: 'Ahmad' };
   const [swap, setSwap] = useState<any>(null);
   const [loading, setLoading] = useState(true);
   const [updating, setUpdating] = useState(false);
@@ -53,8 +53,8 @@ const SwapDetail = () => {
         receiverId: '2',
         sender: {
           id: '1',
-          firstName: 'Bilal',
-          lastName: 'Mustafa',
+          firstName: 'Faizan',
+          lastName: 'Ahmad',
           location: 'Lahore, PK',
           bio: 'Frontend developer'
         },

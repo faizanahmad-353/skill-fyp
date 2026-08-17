@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import { BookOpen, MessageSquare, Star, Plus, Users, ArrowRight, CircleUser, MapPin } from "lucide-react"
 function Dashboard() {
   const user = {
-    name: "Bilal Mustafa",
+    name: "Faizan Ahmad",
     email: "[EMAIL_ADDRESS]",
     bio: "I am a software engineer",
     skills: [

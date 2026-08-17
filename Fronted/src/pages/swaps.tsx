@@ -65,7 +65,7 @@ const date = new Date().toLocaleString("en-PK", {
 const SwapData: swapData[] = [
   {
     id: 1,
-    name: "Bilal",
+    name: "Faizan",
     offered:"sent",
     skills: {
       status: "pending",
@@ -101,7 +101,7 @@ const SwapData: swapData[] = [
   },
   {
     id: 4,
-    name: "Bilal",
+    name: "Faizan",
     offered:"sent",
     skills: {
       status: "active",
@@ -137,7 +137,7 @@ const SwapData: swapData[] = [
   },
   {
     id: 7,
-    name: "Bilal",
+    name: "Faizan",
     offered: "sent",
     skills: {
       status: "active",

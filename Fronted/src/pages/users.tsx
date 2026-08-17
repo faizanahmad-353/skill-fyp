@@ -29,7 +29,7 @@ const usersList: user[] = [
   {
     id: 7, name: "Farwa", from: "Dubai, UAE", wantToLearn: ["React", "Backend APIs"], wantToTeach: ["Web Development", "Graphic Design"]},
   {
-    id: 8, name: "Bilal Khan", from: "Faisalabad, PK", wantToLearn: ["React", "Next.js"], wantToTeach: ["SEO", "Digital Marketing"]},
+    id: 8, name: "Faizan Ahmad", from: "Faisalabad, PK", wantToLearn: ["React", "Next.js"], wantToTeach: ["SEO", "Digital Marketing"]},
   {
    id: 9, name: "Zain", from: "Multan, PK", wantToLearn: ["Freelancing", "Upwork"], wantToTeach: ["Graphic Design", "Logo Design"]},
   {
@@ -80,7 +80,7 @@ const usersList: user[] = [
 export default function Users() {
   const [match, setMatch] = useState<user[]>([])
   const [currentUser, setCurrentUser] = useState<userA>({
-    name: "Bilal",
+    name: "Faizan",
     from: "Lahore, PK",
     wantToLearn: [],
     wantToTeach: []

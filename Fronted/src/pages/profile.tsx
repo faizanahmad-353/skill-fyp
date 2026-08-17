@@ -10,9 +10,9 @@ type User = {
 }
 
 const user: User = {
-  firstName: "John",
-  lastName: "Doe",
-  from: "New York, USA",
+  firstName: "Fazii",
+  lastName: "ahmad",
+  from: "New York, PAK",
   wantToLearn: ["Node.js", "Next.js", "Api creation"],
   wantToTeach: ["React", "Tailwind"]
 }
